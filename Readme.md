@@ -1,3 +1,10 @@
+# HACKERS AT BERKELEY FORK
+This repo serves `chat.hackersatberkeley.com`. It has been deployed to Heroku directly from this repo (click the Deploy to Heroku button below).
+The `org` environment variable should be `hackersatberkeley`.
+`interval` should be `60000`.
+The Slack API `token` is stored directly on Heroku.
+
+Modifications have been made to the landing page (`lib/slash.js`).
 
 # slackin
 
