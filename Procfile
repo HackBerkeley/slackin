@@ -1,1 +1,1 @@
-web: bin/slackin --port $PORT $SLACK_SUBDOMAIN $SLACK_API_TOKEN
+web: bin/slackin --port $PORT --interval $INTERVAL $SLACK_SUBDOMAIN $SLACK_API_TOKEN
